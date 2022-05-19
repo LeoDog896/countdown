@@ -11,7 +11,7 @@
   onMount(() => {
     date = new Date()
     date.setTime(date.getTime() + (29 * 60 * 60 * 1000))
-    setInterval(() => { currentDate = new Date() }, 300)
+    setInterval(() => { currentDate = new Date() }, 50)
   })
 </script>
 
